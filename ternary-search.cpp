@@ -12,7 +12,8 @@ double func(double x)
 }
 
 double diff=0.0000001;      //1e-7/1e-6
-//check for double and int
+//*******check for double and int**************
+//*******for graph opening upward. "U"******* or 4 3 2 1 2 3 4
 double ternarysearch(int l,int r)
 {
     while (r-l>diff)

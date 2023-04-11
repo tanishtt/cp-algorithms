@@ -32,6 +32,7 @@ vector<int> rabin_karp( string &s, string &t)
 
     vector<int> occur;
     //1 based index;
+    //n-m+1
     for(int i=0; i < T - S + 1 ;i++)
     {
         long long curr_h = (h[i+S] - h[i] + m)%m;

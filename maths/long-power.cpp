@@ -1,4 +1,4 @@
-long long int power(long long int a,long long int x)
+long long int power(long long int a,long long int x,long long int md)
 {
 	//use mod if reuired..******int md=1e9+7**********;
 	if(x==0)
@@ -9,7 +9,7 @@ long long int power(long long int a,long long int x)
 	{
 		return a;
 	}
-	long long int temp=power(a,x/2);
+	long long int temp=power(a,x/2,md);
 	if(x%2==0)
 	{
 		return temp*temp;

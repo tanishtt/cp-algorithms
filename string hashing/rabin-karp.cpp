@@ -8,8 +8,12 @@ vector<int> rabin_karp( string &s, string &t)
     int p=31;
     int m=1e9+9;
     int S=s.size(), T=t.size();
+    //////////////////////////////////////////////
+    vector<long long> poww(max(S , T)or 1e5+9);//see here
+    //////////////////////////////////////////////
 
-    vector<long long> poww(max(S , T)or 1e5+9);
+
+    
     poww[0]=1;
     for( int i=1 ; i < poww.size() ; i++)
     {

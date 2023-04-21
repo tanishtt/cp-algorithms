@@ -73,7 +73,7 @@ int main()
                 }
                 return make_pair(hash1 , hash2);
             };
-
+        
             auto pp=getHash(1 , 4);
             cout<<pp.first<<" "<<pp.second;
 
